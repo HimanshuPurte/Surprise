@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            background-color: #f8a8b4;
+        }
+    </style>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #content {
+            text-align: center;
+        }
+        #gif {
+            max-width: 100%;
+            height: auto;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid #3498db;
+            color: #3498db;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: green;
+            color: #070707;
+        }
+        .button2:hover {
+            background-color: red;
+            color: #070707;
+        }
+    </style>
+    <title>Centered Content with Buttons</title>
+</head>
+<body>
+    <div id="content">
+        <h1>Do You Wanna Go Out With Me ?</h1>
+    
+        <img id="v" src="U3TwCOuG8pipyr00nF.webp" alt="Centered GIF" loop="infinity">
+        
+        <div>
+            <a href="2.html">
+            <button class="button" onclick="functionToExecute()">Yes</button>
+            </a>
+            <a href="3.html">
+            <button class="button" onclick="functionToExecute()">No</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
